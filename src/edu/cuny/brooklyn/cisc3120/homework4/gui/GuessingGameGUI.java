@@ -201,13 +201,13 @@ public class GuessingGameGUI implements ActionListener, KeyListener
 
         if (Character.isDigit(keyInput)) {
             if (keyInputStack.size() == 2 || (keyInputStack.size() == 1 &&
-                    new Integer(keyInputStack.peek()) > 1)) {
+                    Integer.valueOf(keyInputStack.peek()) > 1)) {
                 keyInputStack.clear();
             }
 
             keyInputStack.push(Character.toString(keyInput));
-            Integer number = new Integer(keyInputStack.toString()
-                    .replaceAll("\\D", ""));
+            int number = Integer.valueOf(
+                    keyInputStack.toString().replaceAll("\\D", ""));
 
             try {
                 guessSpinner.setValue(number);
