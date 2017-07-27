@@ -1,3 +1,7 @@
+
+![alt text](https://github.com/Adempus/CISC3120/blob/master/GuessingGameGUI_Win.gif)
+
+
 # Object Oriented Guessing Game (HW6)
 
 Implement an object oriented version of The Guessing Game.
