@@ -1,5 +1,5 @@
 
-![alt text](https://github.com/Adempus/CISC3120/blob/master/GuessingGameGUI_Win.gif)
+![alt text](https://i.imgur.com/lCn9c5M.gif)
 
 
 # Object Oriented Guessing Game (HW6)
